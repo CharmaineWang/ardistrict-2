@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/animate.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        
+   
+        <link href="font-awesome.css" rel="stylesheet" type="text/css">
+        <title>ARDISTRICT</title>                                                                      
+        
+    </head>
+    <body >
+        <section class="section-home">
+            
+        <h2 class = "profileName">Cassie Swert</h2>
+        
+        <header>
+            <nav class="main-nav">
+                <div class="profilep">
+                    <img src="resources/img/Screen%20Shot%202017-09-10%20at%2011.56.08%20PM.png" alt="profile picture" class = "profilePic">
+                </div>
+                <div class="top">
+                    <img src="resources/img/ardistrict.png" alt="ardistric logo" class="logo">
+                    <h1> building community, art piece by piece</h1>
+                    <ul class="profile-nav">
+                        <li><a i class="ion-heart icon-fave"></a></li>
+                        <li><a i class="ion-calendar icon-calendar"></a></li>
+                        <li><a i class="ion-android-mail icon-notifications"></a></li>
+                    </ul>
+                </div>
+            </nav>
+            </header>
+                    </section>
+            <div class="search-bar">
+            <input type="search" id="mySearch" placeholder= "   Search: Artist, Genre, Tag, Events">
+            <button class="searchButton" onclick="search()">Surf</button>
+            </div>
+            
+            <ul class="profile-nav">
+                    <li><a i class="ion-home icon-home" ></a></li>
+                    <li><a i href="discovery.html" class="ion-earth icon-discover"></a></li>
+                    <li><a i href="events.html" class="ion-flag icon-events"></a></li>
+             </ul>
+            
+
+        
+        <section class="discovery">
+            <div class="discoverTitle block"></div>
+            <a class="discoverTitle name">New Loves.</a>
+            
+            <div class="scrollmenu">
+              <a img src="resources/img/sky.JPG" class="firstProfile" href="profile.html"></a>
+              <a href="#news"></a>
+              <a href="#contact"></a>
+              <a href="#about"></a>
+              <a href="#support"></a>
+              <a href="#blog"></a>
+              <a href="#tools"></a>  
+              <a href="#base"></a>
+              <a href="#custom"></a>
+              <a href="#more"></a>
+              <a href="#logo"></a>
+              <a href="#friend"></a>
+            </div>
+        </section>
+    </body>
+        
+    <script>
+        function myMap() {
+        var mapOptions = {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+    </script>
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+  <script src="//cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="resources/script.js"></script>
+
+        <footer>
+            <body>
+              <div id="map"></div>
+              <script>
+                function initMap() {
+                  var uluru = {lat: 43.470308, lng:  -80.545270};
+                  var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 15,
+                    center: uluru
+                  });
+                  var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                  });
+                }
+              </script>
+            <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyMIsAl9P9Y5HIkm0nMX28vP-NXkmF7vM&callback=initMap">
+            </script>
+          </body>
+              <div class="foot">
+            <p class = "footer">
+                  Built by Hackermanz &copy; 2017
+                  </p>
+            </div>
+        </footer>
+</html>
+
+
